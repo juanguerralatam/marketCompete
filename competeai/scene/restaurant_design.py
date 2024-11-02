@@ -5,16 +5,14 @@ from typing import List
 from .base import Scene
 from ..agent import Player
 from ..message import MessagePool
-from ..image import Image
-from ..globals import NAME2PORT, PORT2NAME, BASE_PORT, image_pool
-from ..utils import PromptTemplate, get_data_from_database, \
-                    log_table, combine_images, convert_img_to_base64
-   
-import os 
-import json                 
- 
+from ..globals import NAME2PORT, PORT2NAME, BASE_PORT
+from ..utils import PromptTemplate, get_data_from_database, log_table
+
+import os
+import json
+
 EXP_NAME = None
- 
+
 processes = [
     {"name": "plan", "from_db": False, "to_db": False},
     {"name": "basic_info", "from_db": True, "to_db": True},
@@ -57,12 +55,10 @@ class RestaurantDesign(Scene):
         NAME2PORT[restaurant_name] = self.port
         PORT2NAME[self.port] = restaurant_name
         
-        # remove action details of this day from message_pool
+        # Remove action details of this day from message_pool
         summary = self.message_pool.last_message
         summary.content = f"Day{self.day} summary: {summary.content}"
         self.message_pool.compress_last_turn(summary)
-        # print("Debugging summary:")
-        # self.message_pool.print()
         
         self.day += 1
         self._curr_turn += 1
@@ -72,7 +68,6 @@ class RestaurantDesign(Scene):
     def action_for_next_scene(cls, data=None):
         ports = set(NAME2PORT.values())
         res = {}
-        image_pool.reset()
         for port in ports:
             data = get_data_from_database("show", port=port)
             menu = data["menu"]
@@ -80,20 +75,6 @@ class RestaurantDesign(Scene):
             today_offering = PromptTemplate([cls.type_name, "today_offering"]).render(data=data.values())
             dish_score = get_data_from_database("score", port=port)
             res[restaurant] = {"today_offering": today_offering, "dish_score": dish_score}
-            
-            # Menu image
-        #     dish_ids = [d["id"] for d in menu]
-        #     folder_path = f"./logs/{EXP_NAME}/{cls.type_name}_{port}"
-        #     img_paths = [f"{folder_path}/menu_{id}.png" for id in dish_ids]
-        #     img_base64_menu = combine_images(input_paths=img_paths, output_path=f"{folder_path}/menu.png")
-        #     img_menu = Image(owner=restaurant, content=img_base64_menu, description="menu")
-        #     image_pool.append_image(img_menu)
-        #     # Restaurant image
-        #     img_base64_r = convert_img_to_base64(f"{folder_path}/basic_info_1.png")
-        #     img_r = Image(owner=restaurant, content=img_base64_r, description="basic_info")
-        #     image_pool.append_image(img_r)
-            
-        # image_pool.print()
             
         return res
         
@@ -111,13 +92,12 @@ class RestaurantDesign(Scene):
         curr_process = self.get_curr_process()
         curr_player = self.get_curr_player()
         
-        # special case for daybook
+        # Special case for daybook
         if curr_process['name'] == 'plan' and self.day != 0:
             daybooks = get_data_from_database("daybook", port=self.port)
+            rival_info = daybooks[self.day - 1]["rival_info"]
             
-            rival_info = daybooks[self.day-1]["rival_info"]
-            
-            # show last five days of daybook
+            # Show last five days of daybook
             if len(daybooks) > 5:
                 daybooks = daybooks[-5:]
             daybook_list = []
@@ -135,26 +115,22 @@ class RestaurantDesign(Scene):
                                 scene_name=self.type_name, 
                                 step_name='daybook', 
                                 data=data)
-            log_table(f'{self.log_path}/data', daybook_list[-1], f"day{self.day}") # log
-            log_table(f'{self.log_path}/menu', menu, f"day{self.day}")
+            log_table(f'{self.log_path}/data', daybook_list[-1], f"day{self.day}")  # Log daybook data
+            log_table(f'{self.log_path}/menu', menu, f"day{self.day}")  # Log menu data
             
-        # prompt for every step
+        # Prompt for each step
         self.add_new_prompt(player_name=curr_player.name, 
                             scene_name=self.type_name, 
                             step_name=curr_process['name'], 
                             from_db=curr_process['from_db'])
         
-        # text observation
+        # Text observation
         history = True if curr_process['name'] == 'plan' else False
         observation_text = self.message_pool.get_visible_messages(agent_name=curr_player.name, turn=self._curr_turn, history=history)
-        # vision observation
-        # r_name = PORT2NAME[self.port] if self.port in PORT2NAME else None
-        # observation_vision = image_pool.get_visible_images(restaurant_name=r_name, step_name=curr_process['name'])
-        observation_vision = []
         
         for i in range(self.invalid_step_retry):
             try:
-                output = curr_player(observation_text, observation_vision)
+                output = curr_player(observation_text)
                 self.parse_output(output, curr_player.name, curr_process['name'], curr_process['to_db'])
                 break
             except Exception as e:
@@ -165,7 +141,3 @@ class RestaurantDesign(Scene):
         self.prepare_for_next_step()
         
         return
-        
-        
-
-        

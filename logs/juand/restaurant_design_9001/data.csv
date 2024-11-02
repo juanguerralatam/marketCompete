@@ -1,0 +1,10 @@
+name,day1,day2,day3
+id,1,5,3
+income,632,8,8
+expense,200,300,193
+num_of_customer,25,1,1
+num_of_chef,1,2,1
+chef_salary,3000,6000,2800
+dish_score,0.5021230158730159,0.8121230158730157,0.4907709750566894
+customer_score,5.578947368421052,5.666666666666667,5.0
+dishes,"{""Gourmet Burger"": 18, ""BBQ Ribs"": 11, ""Caesar Salad"": 19, ""Milkshake"": 9, ""Chocolate Lava Cake"": 16, ""Classic Cheeseburger"": 6, ""Loaded Nachos"": 15, ""Buffalo Wings"": 6, ""Apple Pie"": 2, ""Artisanal Fries"": 2}","{""Vegan Burger"": 1, ""Mac and Cheese"": 1}","{""BBQ Chicken Sandwich"": 1, ""Milkshake"": 1}"

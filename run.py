@@ -23,7 +23,7 @@ if not os.path.exists(log_path):
     os.makedirs(log_path)
     os.makedirs(f"{log_path}/fig")
 
-config_path = os.path.join('competeai', 'examples', 'group_v2.yaml')
+config_path = os.path.join('competeai', 'examples', 'group.yaml')
 relationship_path = os.path.join('competeai', 'relationship.yaml')
 
 with open(relationship_path, 'r') as f:

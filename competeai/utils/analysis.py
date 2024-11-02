@@ -17,25 +17,13 @@ openai_api_key = os.getenv("OPENAI_KEY")
 
 def get_gpt_response(prompt):
     messages = [{'role': 'user', 'content': prompt}]
-    
-    """ OpenAI 0.27 API"""
-    # completion = openai.ChatCompletion.create(
-    #             model="gpt-4-1106-preview",
-    #             messages=messages,
-    #             temperature=0.7,
-    #             max_tokens=2000,
-    #         )
-        
-    # response = completion.choices[0]['message']['content']
-    # response = response.strip()
-    # return response
 
     """ OpenAI 1.00 API """
         
     client = OpenAI(api_key=openai_api_key)
     
     completion = client.chat.completions.create(
-                model="gpt-4-1106-preview",
+                model="GPT-4o mini",
                 messages=messages,
                 temperature=0.7,
                 max_tokens=2000,

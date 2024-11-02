@@ -1,0 +1,185 @@
+[System->Tina]: The Restaurant " American Delight "information as below:
+1. Customer Score: 7.090909090909091
+2. Advertisement
+   Discover the unique flavors at American Delight! Try our Gourmet Milkshake in exciting flavors and our new Chipotle Black Bean Burger. Enjoy quality American cuisine with a twist! Come experience great food and friendly service at the best prices in town!
+3. Menu 
+   [{'id': 3, 'name': 'Loaded Fries', 'price': 5.0, 'description': 'Crispy fries topped with cheese, bacon, and green onions.'}, {'id': 13, 'name': 'BBQ Chicken Sandwich', 'price': 9.0, 'description': 'Grilled chicken breast smothered in BBQ sauce, topped with coleslaw on a toasted bun.'}, {'id': 14, 'name': 'Classic BBQ Burger', 'price': 9.0, 'description': 'A juicy beef patty topped with BBQ sauce and crispy onion rings.'}, {'id': 15, 'name': 'Spicy Chicken Sandwich', 'price': 8.0, 'description': 'Crispy fried chicken breast with spicy mayo and pickles on a toasted bun.'}, {'id': 17, 'name': 'Pulled Pork Sliders', 'price': 10.0, 'description': 'Slow-cooked pulled pork served on mini buns with coleslaw.'}, {'id': 24, 'name': 'Weekly Special Burger', 'price': 10.0, 'description': 'A unique burger with special toppings that change weekly.'}, {'id': 25, 'name': 'Classic American Cheeseburger', 'price': 8.0, 'description': 'A classic cheeseburger with lettuce, tomato, and American cheese, now with improved flavor.'}, {'id': 26, 'name': 'Classic American Hot Dog', 'price': 5.0, 'description': 'A grilled hot dog served with mustard and onions.'}, {'id': 29, 'name': 'Chipotle Black Bean Burger', 'price': 10.0, 'description': 'A flavorful black bean patty with chipotle sauce, topped with fresh avocado and lettuce.'}, {'id': 31, 'name': 'Summer Salad', 'price': 8.0, 'description': 'A fresh mix of greens, cherry tomatoes, and cucumber, topped with crumbled feta cheese.'}, {'id': 32, 'name': 'Fruit Smoothie Bowl', 'price': 7.0, 'description': 'A thick and creamy smoothie made with yogurt, banana, and honey, topped with granola and fresh fruit.'}, {'id': 33, 'name': 'Coconut Rice Bowl', 'price': 9.0, 'description': 'A flavorful bowl of coconut-infused rice, topped with grilled chicken and steamed vegetables.'}, {'id': 34, 'name': 'Korean-Style Fried Chicken', 'price': 9.0, 'description': 'Crispy fried chicken marinated in a sweet and spicy Korean-inspired sauce.'}, {'id': 35, 'name': 'Chili Con Carne', 'price': 8.0, 'description': 'A hearty bowl of chili made with ground beef, beans, and tomatoes.'}]
+4. Comments
+   [{'day': 1, 'name': 'Quincy', 'score': 7, 'content': "The BBQ Chicken Sandwich was flavorful, scoring well, but the Loaded Fries could use more seasoning to enhance their taste. The Milkshake was decent, though not as satisfying as I hoped. Overall, it was a pleasant experience, but there's still room for improvement compared to Lin's USA Diner."}, {'day': 1, 'name': 'David', 'score': 8, 'content': 'The BBQ Chicken Sandwich was flavorful and satisfying, scoring well at 0.78, while the Crispy Onion Rings were enjoyable but could use a bit more seasoning with a score of 0.71. Overall, it was a pleasant experience, and I would recommend maintaining good quality while enhancing flavors for an even better dining experience.'}, {'day': 1, 'name': 'Zach', 'score': 8, 'content': "The BBQ Chicken Sandwich was flavorful and satisfying, earning a good score. However, the Loaded Fries could use more seasoning, and the Milkshake, while creamy, was just average. Overall, American Delight provided a pleasant experience, but there's room for improvement in flavor consistency compared to my last visit to Lin's USA Diner."}, {'day': 1, 'name': 'Umar', 'score': 8, 'content': "The BBQ Chicken Sandwich was delicious, scoring 0.78, and the Loaded Fries were enjoyable at 0.75. However, the fries could use a bit more seasoning for an even better experience. Overall, it was a satisfying meal that compared favorably to my past visit to Lin's USA Diner, which lacked flavor."}, {'day': 2, 'name': 'Xena', 'score': 8, 'content': "The BBQ Chicken Sandwich was flavorful and satisfying, earning a solid score, while the Loaded Fries were good but could use more seasoning. Overall, it was a pleasant experience in a cozy atmosphere. Compared to Lin's USA Diner, American Delight offered a better meal and overall enjoyment."}]
+
+Please note that comments are merely expressions of personal opinions and are for reference only. Comments can also be time-sensitive. So, a negative comment of a restaurant does not mean it's not suitable for you. If you are drawn to its menu and advertisements, don't hesitate to give it a try.
+
+[System->Tina]: The Restaurant " Lin's USA Diner "information as below:
+1. Customer Score: 5.666666666666667
+2. Advertisement
+   Introducing our new menu items! Indulge in our mouth-watering Gourmet Grilled Cheese Wrap for $8, Spicy Pineapple Salsa for $5, and don't miss our delicious BBQ ribs every Friday! Great food, great times await at USA Flavors!
+3. Menu 
+   [{'id': 4, 'name': 'Buffalo Wings', 'price': 10.0, 'description': 'Spicy chicken wings served with blue cheese dressing and celery sticks.'}, {'id': 7, 'name': 'American Breakfast Platter', 'price': 9.0, 'description': 'Scrambled eggs, bacon, sausage, and toast served all day.'}, {'id': 8, 'name': 'BBQ Chicken Sandwich', 'price': 9.0, 'description': 'Grilled chicken breast smothered in BBQ sauce, topped with coleslaw on a toasted bun.'}, {'id': 12, 'name': 'Crispy Chicken Tenders', 'price': 8.0, 'description': 'Tender strips of chicken breaded and fried to perfection, served with your choice of dipping sauce.'}, {'id': 15, 'name': 'Vegan Burger', 'price': 8.0, 'description': 'A delicious plant-based burger with lettuce, tomato, and avocado served on a toasted bun.'}, {'id': 21, 'name': 'BBQ Ribs', 'price': 12.0, 'description': 'Tender pork ribs smothered in our signature BBQ sauce, served with coleslaw.'}, {'id': 22, 'name': 'Gourmet BBQ Chicken Burger', 'price': 10.0, 'description': 'A premium grilled chicken patty topped with cheddar cheese, spicy jalapenos, and our signature BBQ sauce.'}, {'id': 23, 'name': 'Spicy Loaded Fries', 'price': 8.0, 'description': 'Crispy fries topped with melted cheese, jalapenos, and a drizzle of spicy ranch sauce.'}, {'id': 24, 'name': 'Fried Pickles', 'price': 6.0, 'description': 'Crispy fried pickles served with a tangy dipping sauce.'}, {'id': 25, 'name': 'Classic Cheeseburger', 'price': 10.0, 'description': 'Juicy beef patty topped with melted cheese, lettuce, tomato, and our special sauce served on a toasted bun.'}, {'id': 26, 'name': 'Gourmet Mac & Cheese', 'price': 8.0, 'description': 'A rich and creamy mac and cheese made with aged cheddar and topped with crispy breadcrumbs.'}, {'id': 27, 'name': 'Buffalo Cauliflower Bites', 'price': 7.0, 'description': 'Crispy cauliflower bites tossed in spicy buffalo sauce, served with blue cheese dressing.'}, {'id': 28, 'name': 'Gourmet Grilled Cheese Wrap', 'price': 8.0, 'description': 'A gourmet twist on the classic grilled cheese, featuring melted brie and applewood-smoked bacon in a warm flour tortilla.'}, {'id': 29, 'name': 'Spicy Pineapple Salsa', 'price': 5.0, 'description': 'A sweet and spicy salsa made with fresh pineapple, jalapenos, cilantro, and lime juice.'}]
+4. Comments
+   [{'day': 2, 'name': 'Katie', 'score': 7, 'content': "The Vegan Burger was decent with a score of 0.73, while the Mac and Cheese impressed me more at 0.81. However, both dishes could benefit from enhanced flavors. Compared to American Delight, Lin's aligns better with my dietary preferences, but there's still room for improvement in taste and presentation."}, {'day': 1, 'name': 'Katie', 'score': 7, 'content': "The Vegan Burger was decent, scoring 0.73, while the Mac and Cheese slightly outperformed at 0.77. While I appreciated the vegan options, the flavors could be more vibrant. Compared to American Delight, Lin's offers a better fit for my dietary needs, but there's still room for improvement in taste."}, {'day': 2, 'name': 'Xena', 'score': 5, 'content': 'While the BBQ Chicken Sandwich was decent, the Classic Cheeseburger and Loaded Fries fell flat with low scores. The Milkshake was enjoyable but not enough to salvage the experience. Overall, I expected more flavor and excitement compared to my previous visit to American Delight, which had a similar experience. There’s room for improvement.'}, {'day': 2, 'name': 'Quincy', 'score': 5, 'content': "The Classic Cheeseburger was average with a score of 0.55, and the Loaded Fries were disappointing at 0.49. The Milkshake was slightly better at 0.53, but overall, the meal lacked flavor. Compared to my previous experience at American Delight, Lin's offerings were less satisfying. I hope they can improve their food quality."}, {'day': 2, 'name': 'David', 'score': 5, 'content': 'The BBQ Chicken Sandwich was a bit bland, scoring 0.56, while the Classic Cheeseburger and Milkshake were also underwhelming at 0.55 and 0.53 respectively. Overall, the meal felt average and lacked the flavor I hoped for compared to my previous experience at American Delight. I would suggest enhancing the seasoning in the dishes.'}]
+
+Please note that comments are merely expressions of personal opinions and are for reference only. Comments can also be time-sensitive. So, a negative comment of a restaurant does not mean it's not suitable for you. If you are drawn to its menu and advertisements, don't hesitate to give it a try.
+
+[System->Tina]: Please according to your income, taste, health, dietary restriction, personality, experience and carefully read the information of two restaurant then choose one to dine in.
+
+<<FORMAT>>
+Your responses must follow the following format:
+{
+    "restaurant": <The restaurant you chose. If you don't make choices, return 'None'>,
+    "dishes" : [
+        The dishes name ordered at this restaurant 
+    ],
+    "reason" : <The reason you chose the restaurant. Don't tell you are some cuisine lover. Only compare the inforamtion of restaurants, then choose one. No more than 60 words>
+}
+
+[Tina->all]: {
+    "restaurant": "Lin's",
+    "dishes" : [
+        "Vegan Burger", 
+        "Mac and Cheese"
+    ],
+    "reason" : "Lin's aligns better with my dietary preferences, and the dishes have higher scores compared to American Delight."
+}
+
+[System->Tina]: The Restaurant " American Delight "information as below:
+1. Customer Score: 7.090909090909091
+2. Advertisement
+   Discover the unique flavors at American Delight! Try our Gourmet Milkshake in exciting flavors and our new Chipotle Black Bean Burger. Enjoy quality American cuisine with a twist! Come experience great food and friendly service at the best prices in town!
+3. Menu 
+   [{'id': 3, 'name': 'Loaded Fries', 'price': 5.0, 'description': 'Crispy fries topped with cheese, bacon, and green onions.'}, {'id': 13, 'name': 'BBQ Chicken Sandwich', 'price': 9.0, 'description': 'Grilled chicken breast smothered in BBQ sauce, topped with coleslaw on a toasted bun.'}, {'id': 14, 'name': 'Classic BBQ Burger', 'price': 9.0, 'description': 'A juicy beef patty topped with BBQ sauce and crispy onion rings.'}, {'id': 15, 'name': 'Spicy Chicken Sandwich', 'price': 8.0, 'description': 'Crispy fried chicken breast with spicy mayo and pickles on a toasted bun.'}, {'id': 17, 'name': 'Pulled Pork Sliders', 'price': 10.0, 'description': 'Slow-cooked pulled pork served on mini buns with coleslaw.'}, {'id': 24, 'name': 'Weekly Special Burger', 'price': 10.0, 'description': 'A unique burger with special toppings that change weekly.'}, {'id': 25, 'name': 'Classic American Cheeseburger', 'price': 8.0, 'description': 'A classic cheeseburger with lettuce, tomato, and American cheese, now with improved flavor.'}, {'id': 26, 'name': 'Classic American Hot Dog', 'price': 5.0, 'description': 'A grilled hot dog served with mustard and onions.'}, {'id': 29, 'name': 'Chipotle Black Bean Burger', 'price': 10.0, 'description': 'A flavorful black bean patty with chipotle sauce, topped with fresh avocado and lettuce.'}, {'id': 31, 'name': 'Summer Salad', 'price': 8.0, 'description': 'A fresh mix of greens, cherry tomatoes, and cucumber, topped with crumbled feta cheese.'}, {'id': 32, 'name': 'Fruit Smoothie Bowl', 'price': 7.0, 'description': 'A thick and creamy smoothie made with yogurt, banana, and honey, topped with granola and fresh fruit.'}, {'id': 33, 'name': 'Coconut Rice Bowl', 'price': 9.0, 'description': 'A flavorful bowl of coconut-infused rice, topped with grilled chicken and steamed vegetables.'}, {'id': 34, 'name': 'Korean-Style Fried Chicken', 'price': 9.0, 'description': 'Crispy fried chicken marinated in a sweet and spicy Korean-inspired sauce.'}, {'id': 36, 'name': 'Veggie Burger', 'price': 8.0, 'description': 'A delicious veggie burger with avocado and sprouts on whole wheat bread.'}]
+4. Comments
+   [{'day': 1, 'name': 'Quincy', 'score': 7, 'content': "The BBQ Chicken Sandwich was flavorful, scoring well, but the Loaded Fries could use more seasoning to enhance their taste. The Milkshake was decent, though not as satisfying as I hoped. Overall, it was a pleasant experience, but there's still room for improvement compared to Lin's USA Diner."}, {'day': 1, 'name': 'David', 'score': 8, 'content': 'The BBQ Chicken Sandwich was flavorful and satisfying, scoring well at 0.78, while the Crispy Onion Rings were enjoyable but could use a bit more seasoning with a score of 0.71. Overall, it was a pleasant experience, and I would recommend maintaining good quality while enhancing flavors for an even better dining experience.'}, {'day': 1, 'name': 'Zach', 'score': 8, 'content': "The BBQ Chicken Sandwich was flavorful and satisfying, earning a good score. However, the Loaded Fries could use more seasoning, and the Milkshake, while creamy, was just average. Overall, American Delight provided a pleasant experience, but there's room for improvement in flavor consistency compared to my last visit to Lin's USA Diner."}, {'day': 1, 'name': 'Umar', 'score': 8, 'content': "The BBQ Chicken Sandwich was delicious, scoring 0.78, and the Loaded Fries were enjoyable at 0.75. However, the fries could use a bit more seasoning for an even better experience. Overall, it was a satisfying meal that compared favorably to my past visit to Lin's USA Diner, which lacked flavor."}, {'day': 2, 'name': 'Xena', 'score': 8, 'content': "The BBQ Chicken Sandwich was flavorful and satisfying, earning a solid score, while the Loaded Fries were good but could use more seasoning. Overall, it was a pleasant experience in a cozy atmosphere. Compared to Lin's USA Diner, American Delight offered a better meal and overall enjoyment."}]
+
+Please note that comments are merely expressions of personal opinions and are for reference only. Comments can also be time-sensitive. So, a negative comment of a restaurant does not mean it's not suitable for you. If you are drawn to its menu and advertisements, don't hesitate to give it a try.
+
+[System->Tina]: The Restaurant " Lin's USA Diner "information as below:
+1. Customer Score: 5.666666666666667
+2. Advertisement
+   Introducing our new menu items! Indulge in our mouth-watering Gourmet Grilled Cheese Wrap for $8, Spicy Pineapple Salsa for $5, and don't miss our delicious BBQ ribs every Friday! Great food, great times await at USA Flavors!
+3. Menu 
+   [{'id': 4, 'name': 'Buffalo Wings', 'price': 10.0, 'description': 'Spicy chicken wings served with blue cheese dressing and celery sticks.'}, {'id': 7, 'name': 'American Breakfast Platter', 'price': 9.0, 'description': 'Scrambled eggs, bacon, sausage, and toast served all day.'}, {'id': 8, 'name': 'BBQ Chicken Sandwich', 'price': 9.0, 'description': 'Grilled chicken breast smothered in BBQ sauce, topped with coleslaw on a toasted bun.'}, {'id': 12, 'name': 'Crispy Chicken Tenders', 'price': 8.0, 'description': 'Tender strips of chicken breaded and fried to perfection, served with your choice of dipping sauce.'}, {'id': 15, 'name': 'Vegan Burger', 'price': 8.0, 'description': 'A delicious plant-based burger with lettuce, tomato, and avocado served on a toasted bun.'}, {'id': 21, 'name': 'BBQ Ribs', 'price': 12.0, 'description': 'Tender pork ribs smothered in our signature BBQ sauce, served with coleslaw.'}, {'id': 22, 'name': 'Gourmet BBQ Chicken Burger', 'price': 12.0, 'description': 'A premium grilled chicken patty topped with cheddar cheese, spicy jalapenos, and our signature BBQ sauce.'}, {'id': 23, 'name': 'Spicy Loaded Fries', 'price': 8.0, 'description': 'Crispy fries topped with melted cheese, jalapenos, and a drizzle of spicy ranch sauce.'}, {'id': 24, 'name': 'Fried Pickles', 'price': 6.0, 'description': 'Crispy fried pickles served with a tangy dipping sauce.'}, {'id': 25, 'name': 'Classic Cheeseburger', 'price': 10.0, 'description': 'Juicy beef patty topped with melted cheese, lettuce, tomato, and our special sauce served on a toasted bun.'}, {'id': 26, 'name': 'Gourmet Mac & Cheese', 'price': 8.0, 'description': 'A rich and creamy mac and cheese made with aged cheddar and topped with crispy breadcrumbs.'}, {'id': 27, 'name': 'Buffalo Cauliflower Bites', 'price': 7.0, 'description': 'Crispy cauliflower bites tossed in spicy buffalo sauce, served with blue cheese dressing.'}, {'id': 28, 'name': 'Gourmet Grilled Cheese Wrap', 'price': 8.0, 'description': 'A gourmet twist on the classic grilled cheese, featuring melted brie and applewood-smoked bacon in a warm flour tortilla.'}, {'id': 29, 'name': 'Spicy Pineapple Salsa', 'price': 5.0, 'description': 'A sweet and spicy salsa made with fresh pineapple, jalapenos, cilantro, and lime juice.'}, {'id': 30, 'name': 'Korean BBQ Beef Sandwich', 'price': 11.0, 'description': 'Thinly sliced beef short ribs marinated in Korean chili flakes and soy sauce, served on a toasted baguette with kimchi slaw.'}]
+4. Comments
+   [{'day': 2, 'name': 'Katie', 'score': 7, 'content': "The Vegan Burger was decent with a score of 0.73, while the Mac and Cheese impressed me more at 0.81. However, both dishes could benefit from enhanced flavors. Compared to American Delight, Lin's aligns better with my dietary preferences, but there's still room for improvement in taste and presentation."}, {'day': 1, 'name': 'Katie', 'score': 7, 'content': "The Vegan Burger was decent, scoring 0.73, while the Mac and Cheese slightly outperformed at 0.77. While I appreciated the vegan options, the flavors could be more vibrant. Compared to American Delight, Lin's offers a better fit for my dietary needs, but there's still room for improvement in taste."}, {'day': 2, 'name': 'Xena', 'score': 5, 'content': 'While the BBQ Chicken Sandwich was decent, the Classic Cheeseburger and Loaded Fries fell flat with low scores. The Milkshake was enjoyable but not enough to salvage the experience. Overall, I expected more flavor and excitement compared to my previous visit to American Delight, which had a similar experience. There’s room for improvement.'}, {'day': 2, 'name': 'Quincy', 'score': 5, 'content': "The Classic Cheeseburger was average with a score of 0.55, and the Loaded Fries were disappointing at 0.49. The Milkshake was slightly better at 0.53, but overall, the meal lacked flavor. Compared to my previous experience at American Delight, Lin's offerings were less satisfying. I hope they can improve their food quality."}, {'day': 2, 'name': 'David', 'score': 5, 'content': 'The BBQ Chicken Sandwich was a bit bland, scoring 0.56, while the Classic Cheeseburger and Milkshake were also underwhelming at 0.55 and 0.53 respectively. Overall, the meal felt average and lacked the flavor I hoped for compared to my previous experience at American Delight. I would suggest enhancing the seasoning in the dishes.'}]
+
+Please note that comments are merely expressions of personal opinions and are for reference only. Comments can also be time-sensitive. So, a negative comment of a restaurant does not mean it's not suitable for you. If you are drawn to its menu and advertisements, don't hesitate to give it a try.
+
+[System->Tina]: Please according to your income, taste, health, dietary restriction, personality, experience and carefully read the information of two restaurant then choose one to dine in.
+
+<<FORMAT>>
+Your responses must follow the following format:
+{
+    "restaurant": <The restaurant you chose. If you don't make choices, return 'None'>,
+    "dishes" : [
+        The dishes name ordered at this restaurant 
+    ],
+    "reason" : <The reason you chose the restaurant. Don't tell you are some cuisine lover. Only compare the inforamtion of restaurants, then choose one. No more than 60 words>
+}
+
+[Tina->all]: {
+    "restaurant": "Lin's",
+    "dishes" : [
+        "Vegan Burger", 
+        "Mac and Cheese"
+    ],
+    "reason" : "Chooses Lin's due to better alignment with dietary preferences, higher scores for flavors, and slightly more vibrant taste compared to American Delight."
+
+[System->Tina]: The Restaurant " Red, White, and Blue American Bistro "information as below:
+1. Customer Score: NULL
+2. Advertisement
+   Experience the taste of America at Red, White, and Blue American Bistro. Enjoy our signature burgers, grilled chicken sandwiches, and fresh salads, all made with love and care. Come visit us today!
+3. Menu 
+   [{'id': 2, 'name': 'Crispy Chicken Sandwich', 'price': 14.0, 'description': 'A crispy fried chicken breast filet topped with lettuce, tomato, and our tangy BBQ sauce.'}, {'id': 3, 'name': 'Fresh Garden Salad', 'price': 8.0, 'description': 'A mix of fresh greens, cherry tomatoes, cucumber, and carrots, topped with a zesty vinaigrette dressing.'}, {'id': 4, 'name': 'French Fries', 'price': 5.0, 'description': 'Thick-cut fries cooked to perfection, served hot and salty.'}, {'id': 5, 'name': 'Milkshake', 'price': 6.0, 'description': 'A rich and creamy milkshake available in vanilla, chocolate, or strawberry flavors.'}, {'id': 6, 'name': 'Onion Rings', 'price': 6.0, 'description': 'Crispy onion rings cooked to perfection, served hot and spicy.'}, {'id': 7, 'name': 'Side Salad', 'price': 5.0, 'description': 'A small serving of mixed greens with a light vinaigrette dressing.'}, {'id': 8, 'name': 'Milkshake Upgrade', 'price': 7.0, 'description': 'Get a milkshake, upgrade to our premium flavor.'}, {'id': 9, 'name': 'Fries Upgrade', 'price': 5.0, 'description': 'Get a side of fries, upgrade to our truffle oil.'}, {'id': 10, 'name': 'Mixed Greens Salad', 'price': 6.0, 'description': 'A fresh mix of greens, cherry tomatoes, and cucumber, served with a balsamic vinaigrette.'}, {'id': 11, 'name': 'Fries', 'price': 4.0, 'description': 'Thick-cut fries cooked to a crispy perfection.'}, {'id': 12, 'name': 'Soft Drink', 'price': 2.0, 'description': 'Choose from our selection of soft drinks, including Coke and Sprite.'}, {'id': 13, 'name': 'Dessert Milkshake', 'price': 6.0, 'description': 'Rich and creamy milkshakes available in vanilla, chocolate, and strawberry.'}, {'id': 14, 'name': 'Coffee', 'price': 3.0, 'description': 'Our specialty coffee made from 100% Arabica beans.'}, {'id': 15, 'name': 'Burger Combo', 'price': 12.0, 'description': 'Pair any burger with fries and a drink for a discounted price!'}, {'id': 16, 'name': 'Chicken Sandwich Combo', 'price': 14.0, 'description': 'Pair our grilled chicken sandwich with fries and a drink for a discounted price!'}, {'id': 17, 'name': 'Kids Meal', 'price': 6.0, 'description': 'A smaller portion of our classic cheeseburger, fries, and a drink for kids under 10.'}, {'id': 18, 'name': 'Classic Cheeseburger', 'price': 8.0, 'description': 'Our signature burger with cheddar cheese, lettuce, tomato, onion, and our special sauce.'}, {'id': 19, 'name': 'Grilled Chicken Sandwich', 'price': 10.0, 'description': 'Marinated grilled chicken breast, avocado, bacon, and Swiss cheese on whole wheat bread.'}, {'id': 20, 'name': 'Mixed Greens Salad', 'price': 6.0, 'description': 'Fresh mixed greens with cherry tomatoes, cucumber, and our special vinaigrette dressing.'}, {'id': 21, 'name': 'Fries', 'price': 4.0, 'description': 'Thick-cut fries cooked to a golden crisp.'}, {'id': 22, 'name': 'Soda', 'price': 2.0, 'description': 'Choose from our selection of cola, lemon-lime soda, or root beer.'}, {'id': 23, 'name': 'Milkshake', 'price': 5.0, 'description': 'Thick and creamy milkshakes in our favorite flavors.'}, {'id': 24, 'name': 'Burger Combo', 'price': 12.0, 'description': 'Get a burger, fries, and a drink with our combo meal.'}, {'id': 25, 'name': 'Chicken Sandwich Combo', 'price': 14.0, 'description': 'Get a grilled chicken sandwich, fries, and a drink with our combo meal.'}]
+4. Comments
+   []
+
+Please note that comments are merely expressions of personal opinions and are for reference only. Comments can also be time-sensitive. So, a negative comment of a restaurant does not mean it's not suitable for you. If you are drawn to its menu and advertisements, don't hesitate to give it a try.
+
+[System->Tina]: The Restaurant " Liberty Grill (USA) "information as below:
+1. Customer Score: NULL
+2. Advertisement
+   Indulge in our signature dry-aged steak and artisanal French toast for a taste of luxury at Liberty Grill! Join us for an unforgettable dining experience.
+3. Menu 
+   [{'id': 1, 'name': 'Classic Cheeseburger', 'price': 12.0, 'description': 'Our signature burger featuring dry-aged beef, melted cheddar cheese, lettuce, tomato, onion, and our special sauce.'}, {'id': 2, 'name': 'Grilled Chicken Sandwich', 'price': 15.0, 'description': 'Fresh free-range chicken breast, grilled to perfection, served on a toasted brioche bun with lettuce, tomato, and mayo.'}, {'id': 3, 'name': 'Artisanal Salad', 'price': 10.0, 'description': 'Mixed greens tossed with dry-aged bacon, cherry tomatoes, cucumber, carrots, and crumbled blue cheese.'}, {'id': 4, 'name': 'BBQ Ribs', 'price': 20.0, 'description': 'Tender pork ribs slow-cooked in our signature BBQ sauce, served with a side of coleslaw.'}, {'id': 5, 'name': 'Dry-Aged Steak', 'price': 35.0, 'description': 'Tender and flavorful dry-aged steak, served with a side of garlic mashed potatoes and sautéed broccoli.'}, {'id': 6, 'name': 'Vegetarian Quinoa Bowl', 'price': 12.0, 'description': 'Quinoa bowl filled with roasted vegetables, avocado, and a fried egg.'}, {'id': 7, 'name': 'Breakfast Burger', 'price': 10.0, 'description': 'A classic burger served with scrambled eggs, bacon, and cheddar cheese.'}, {'id': 8, 'name': 'Grilled Chicken Caesar Salad', 'price': 15.0, 'description': 'Fresh romaine lettuce tossed with grilled chicken, croutons, and parmesan cheese.'}, {'id': 9, 'name': "Mac 'n Cheese", 'price': 8.0, 'description': 'Creamy macaroni and cheese with a crispy breadcrumb topping.'}, {'id': 10, 'name': 'Fried Chicken Tenders', 'price': 12.0, 'description': 'Crispy fried chicken strips served with dipping sauce.'}, {'id': 11, 'name': 'Artisanal French Toast', 'price': 10.0, 'description': 'Thick slices of brioche bread dipped in egg batter and grilled to perfection.'}, {'id': 12, 'name': 'Fresh Fruit Smoothie', 'price': 6.0, 'description': 'Blended mix of seasonal fruits, yogurt, and honey.'}]
+4. Comments
+   []
+
+Please note that comments are merely expressions of personal opinions and are for reference only. Comments can also be time-sensitive. So, a negative comment of a restaurant does not mean it's not suitable for you. If you are drawn to its menu and advertisements, don't hesitate to give it a try.
+
+[System->Tina]: Please according to your income, taste, health, dietary restriction, personality, experience and carefully read the information of two restaurant then choose one to dine in.
+
+<<FORMAT>>
+Your responses must follow the following format:
+{
+    "restaurant": <The restaurant you chose. If you don't make choices, return 'None'>,
+    "dishes" : [
+        The dishes name ordered at this restaurant 
+    ],
+    "reason" : <The reason you chose the restaurant. Don't tell you are some cuisine lover. Only compare the inforamtion of restaurants, then choose one. No more than 60 words>
+}
+
+[Tina->all]: {
+    "restaurant": "Red, White, and Blue American Bistro",
+    "dishes" : [
+        "Crispy Fried Chicken Tenders", 
+        "Burger Combo"
+    ],
+    "reason" : "This restaurant has a variety of dishes to suit my taste for comfort food, including chicken tenders and burgers. The prices seem reasonable, and the menu options are easy to navigate."
+}
+
+[System->Tina]: The Restaurant " Red, White, and Blue American Bistro "information as below:
+1. Customer Score: NULL
+2. Advertisement
+   Experience the best of American comfort food at Red, White, and Blue American Bistro! Our signature burgers, grilled chicken sandwiches, and fresh salads are made with love and care. Come visit us today and taste the difference!
+3. Menu 
+   [{'id': 2, 'name': 'Crispy Chicken Sandwich', 'price': 14.0, 'description': 'A crispy fried chicken breast filet topped with lettuce, tomato, and our tangy BBQ sauce.'}, {'id': 3, 'name': 'Fresh Garden Salad', 'price': 8.0, 'description': 'A mix of fresh greens, cherry tomatoes, cucumber, and carrots, topped with a zesty vinaigrette dressing.'}, {'id': 4, 'name': 'French Fries', 'price': 5.0, 'description': 'Thick-cut fries cooked to perfection, served hot and salty.'}, {'id': 5, 'name': 'Milkshake', 'price': 6.0, 'description': 'A rich and creamy milkshake available in vanilla, chocolate, or strawberry flavors.'}, {'id': 6, 'name': 'Onion Rings', 'price': 6.0, 'description': 'Crispy onion rings cooked to perfection, served hot and spicy.'}, {'id': 7, 'name': 'Side Salad', 'price': 5.0, 'description': 'A small serving of mixed greens with a light vinaigrette dressing.'}, {'id': 8, 'name': 'Milkshake Upgrade', 'price': 7.0, 'description': 'Get a milkshake, upgrade to our premium flavor.'}, {'id': 9, 'name': 'Fries Upgrade', 'price': 5.0, 'description': 'Get a side of fries, upgrade to our truffle oil.'}, {'id': 10, 'name': 'Mixed Greens Salad', 'price': 6.0, 'description': 'A fresh mix of greens, cherry tomatoes, and cucumber, served with a balsamic vinaigrette.'}, {'id': 11, 'name': 'Fries', 'price': 4.0, 'description': 'Thick-cut fries cooked to a crispy perfection.'}, {'id': 12, 'name': 'Soft Drink', 'price': 2.0, 'description': 'Choose from our selection of soft drinks, including Coke and Sprite.'}, {'id': 13, 'name': 'Dessert Milkshake', 'price': 6.0, 'description': 'Rich and creamy milkshakes available in vanilla, chocolate, and strawberry.'}, {'id': 14, 'name': 'Coffee', 'price': 3.0, 'description': 'Our specialty coffee made from 100% Arabica beans.'}, {'id': 15, 'name': 'Burger Combo', 'price': 12.0, 'description': 'Pair any burger with fries and a drink for a discounted price!'}, {'id': 16, 'name': 'Chicken Sandwich Combo', 'price': 14.0, 'description': 'Pair our grilled chicken sandwich with fries and a drink for a discounted price!'}, {'id': 17, 'name': 'Kids Meal', 'price': 6.0, 'description': 'A smaller portion of our classic cheeseburger, fries, and a drink for kids under 10.'}, {'id': 18, 'name': 'Classic Cheeseburger', 'price': 8.0, 'description': 'Our signature burger with cheddar cheese, lettuce, tomato, onion, and our special sauce.'}, {'id': 19, 'name': 'Grilled Chicken Sandwich', 'price': 10.0, 'description': 'Marinated grilled chicken breast, avocado, bacon, and Swiss cheese on whole wheat bread.'}, {'id': 20, 'name': 'Mixed Greens Salad', 'price': 6.0, 'description': 'Fresh mixed greens with cherry tomatoes, cucumber, and our special vinaigrette dressing.'}, {'id': 22, 'name': 'Soda', 'price': 2.0, 'description': 'Choose from our selection of cola, lemon-lime soda, or root beer.'}, {'id': 23, 'name': 'Milkshake', 'price': 5.0, 'description': 'Thick and creamy milkshakes in our favorite flavors.'}, {'id': 24, 'name': 'Burger Combo', 'price': 12.0, 'description': 'Get a burger, fries, and a drink with our combo meal.'}, {'id': 26, 'name': 'Fresh Fruit Smoothie', 'price': 5.0, 'description': 'A refreshing blend of seasonal fruits and yogurt.'}]
+4. Comments
+   []
+
+Please note that comments are merely expressions of personal opinions and are for reference only. Comments can also be time-sensitive. So, a negative comment of a restaurant does not mean it's not suitable for you. If you are drawn to its menu and advertisements, don't hesitate to give it a try.
+
+[System->Tina]: The Restaurant " Liberty Grill (USA) "information as below:
+1. Customer Score: NULL
+2. Advertisement
+   Indulge in our signature dry-aged steak and artisanal French toast for a taste of luxury at Liberty Grill! Join us for an unforgettable dining experience.
+3. Menu 
+   [{'id': 1, 'name': 'Classic Cheeseburger', 'price': 12.0, 'description': 'Our signature burger featuring dry-aged beef, melted cheddar cheese, lettuce, tomato, onion, and our special sauce.'}, {'id': 2, 'name': 'Grilled Chicken Sandwich', 'price': 15.0, 'description': 'Fresh free-range chicken breast, grilled to perfection, served on a toasted brioche bun with lettuce, tomato, and mayo.'}, {'id': 3, 'name': 'Artisanal Salad', 'price': 10.0, 'description': 'Mixed greens tossed with dry-aged bacon, cherry tomatoes, cucumber, carrots, and crumbled blue cheese.'}, {'id': 4, 'name': 'BBQ Ribs', 'price': 20.0, 'description': 'Tender pork ribs slow-cooked in our signature BBQ sauce, served with a side of coleslaw.'}, {'id': 5, 'name': 'Dry-Aged Steak', 'price': 35.0, 'description': 'Tender and flavorful dry-aged steak, served with a side of garlic mashed potatoes and sautéed broccoli.'}, {'id': 6, 'name': 'Vegetarian Quinoa Bowl', 'price': 12.0, 'description': 'Quinoa bowl filled with roasted vegetables, avocado, and a fried egg.'}, {'id': 7, 'name': 'Breakfast Burger', 'price': 10.0, 'description': 'A classic burger served with scrambled eggs, bacon, and cheddar cheese.'}, {'id': 8, 'name': 'Grilled Chicken Caesar Salad', 'price': 15.0, 'description': 'Fresh romaine lettuce tossed with grilled chicken, croutons, and parmesan cheese.'}, {'id': 10, 'name': 'Crispy Fried Chicken Tenders', 'price': 12.0, 'description': 'Crispy fried chicken strips served with dipping sauce.'}, {'id': 11, 'name': 'Artisanal French Toast with Caramelized Bananas', 'price': 12.0, 'description': 'Thick slices of brioche bread dipped in egg batter and grilled to perfection, topped with caramelized bananas and maple syrup.'}, {'id': 13, 'name': 'Premium Burger', 'price': 18.0, 'description': 'Dry-aged beef, melted cheddar cheese, lettuce, tomato, onion, and our special sauce, served with a side of truffle fries.'}, {'id': 14, 'name': 'Artisanal Pizza', 'price': 15.0, 'description': 'Fresh mozzarella, basil, and tomato sauce on a hand-crafted pizza crust.'}, {'id': 15, 'name': 'Wine Pairing', 'price': 20.0, 'description': 'A selection of fine wines, carefully curated to complement our menu items.'}]
+4. Comments
+   []
+
+Please note that comments are merely expressions of personal opinions and are for reference only. Comments can also be time-sensitive. So, a negative comment of a restaurant does not mean it's not suitable for you. If you are drawn to its menu and advertisements, don't hesitate to give it a try.
+
+[System->Tina]: Please according to your income, taste, health, dietary restriction, personality, experience and carefully read the information of two restaurant then choose one to dine in.
+
+<<FORMAT>>
+Your responses must follow the following format:
+{
+    "restaurant": <The restaurant you chose. If you don't make choices, return 'None'>,
+    "dishes" : [
+        The dishes name ordered at this restaurant 
+    ],
+    "reason" : <The reason you chose the restaurant. Don't tell you are some cuisine lover. Only compare the inforamtion of restaurants, then choose one. No more than 60 words>
+}
+
+[Tina->all]: {
+    "restaurant": "Liberty Grill (USA)", 
+    "dishes" : ["Dry-Aged Steak", "Artisanal French Toast with Caramelized Bananas"],
+    "reason" : "This restaurant offers high-end options like dry-aged steak and premium burger, which seem appealing to someone looking for a luxurious dining experience."
+}
+
+[System->Tina]: As a customer, after you taste the dishes, The score of each dish as below (1 is a excellent score):
+
+Dry-Aged Steak: 0.86
+Artisanal French Toast with Caramelized Bananas: 0.92
+
+<<FORMAT>>
+Now please tell me your feeling of this meal. If the experience is not good, please give a negative review. Your responses must be formated as below:
+{
+    "restaurant": <The restaurant you chose>,
+    "feeling": <Your experience, feeling. It is just your personal memory, no one else will see it. No more than 60 words>
+}
+
+[Tina->all]: {
+    "restaurant": "Liberty Grill (USA)", 
+    "feeling": "The dry-aged steak was tender and flavorful, but not impressive enough to justify the high price tag. The Artisanal French Toast with Caramelized Bananas was a delightful surprise, with perfect balance of sweet and savory flavors. Overall, a good dining experience, but not spectacular."
+}
+

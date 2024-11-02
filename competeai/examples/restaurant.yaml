@@ -2,8 +2,8 @@ backends:
   default_backend: &default_backend_anchor
     temperature: 0.7
     max_tokens: 1024
-    model: gpt-4-1106-preview
-    backend_type: openai-chat
+    model: llama3.2
+    backend_type: ollama-chat
 
 global_prompt:
   boss: &default_global_prompt_boss

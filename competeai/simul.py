@@ -48,7 +48,7 @@ class Simulation:
         """
         Main function, run the simulation
         """
-        max_day = 15
+        max_day = 5
         previous_scene_data = None
         
         i = 1

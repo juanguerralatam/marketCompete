@@ -1,0 +1,54 @@
+[System->all]: The Restaurant " American Delight "information as below:
+1. Customer Score: NULL
+2. Advertisement
+   Discover the taste of America at American Delight! Enjoy our juicy Classic American Burger, tender BBQ Ribs, and creamy Mac and Cheese, all made with the finest ingredients. Join us for a delightful dining experience and treat your taste buds today! Special promotions available for first-time visitors!
+3. Menu 
+   [{'id': 1, 'name': 'Classic American Burger', 'price': 12.0, 'description': 'Juicy beef patty with lettuce, tomato, and special sauce.'}, {'id': 2, 'name': 'BBQ Ribs', 'price': 18.0, 'description': 'Tender pork ribs smothered in our house BBQ sauce.'}, {'id': 3, 'name': 'Mac and Cheese', 'price': 10.0, 'description': 'Creamy cheese sauce over pasta, baked to perfection.'}, {'id': 4, 'name': 'Chicken Wings', 'price': 9.0, 'description': 'Spicy chicken wings served with ranch dressing.'}, {'id': 5, 'name': 'American Apple Pie', 'price': 6.0, 'description': 'Classic dessert made with fresh apples and a flaky crust.'}, {'id': 6, 'name': 'Milkshake', 'price': 5.0, 'description': 'Thick and creamy milkshake available in chocolate or vanilla.'}]
+4. Comments
+   []
+
+Please note that comments are merely expressions of personal opinions and are for reference only. Comments can also be time-sensitive. So, a negative comment of a restaurant does not mean it's not suitable for you. If you are drawn to its menu and advertisements, don't hesitate to give it a try.
+
+[System->all]: The Restaurant " American Dream USA "information as below:
+1. Customer Score: NULL
+2. Advertisement
+   Welcome to American Dream USA! Enjoy our delicious comfort food and gourmet dishes. Try our special promotion on the 'Gourmet Burger' for the first week - a mouth-watering experience at a discounted price! Bring your friends and family for a taste of America!
+3. Menu 
+   [{'id': 1, 'name': 'Classic Cheeseburger', 'price': 10.0, 'description': 'Juicy beef patty topped with melted cheese, lettuce, tomato, and our special sauce.'}, {'id': 2, 'name': 'Loaded Nachos', 'price': 8.0, 'description': 'Crispy tortilla chips topped with melted cheese, jalapeños, sour cream, and guacamole.'}, {'id': 3, 'name': 'BBQ Ribs', 'price': 15.0, 'description': 'Tender pork ribs smothered in tangy BBQ sauce, served with coleslaw.'}, {'id': 4, 'name': 'Buffalo Wings', 'price': 12.0, 'description': 'Spicy chicken wings served with celery sticks and blue cheese dressing.'}, {'id': 5, 'name': 'Milkshake', 'price': 5.0, 'description': 'Thick and creamy milkshake available in chocolate, vanilla, and strawberry.'}, {'id': 6, 'name': 'Gourmet Burger', 'price': 18.0, 'description': 'Premium beef patty with artisanal toppings including avocado, arugula, and gourmet sauce.'}, {'id': 7, 'name': 'Artisanal Fries', 'price': 6.0, 'description': 'Crispy fries seasoned with herbs and spices, served with a garlic aioli dip.'}, {'id': 8, 'name': 'Caesar Salad', 'price': 9.0, 'description': 'Classic Caesar salad topped with grilled chicken, croutons, and parmesan cheese.'}, {'id': 9, 'name': 'Chocolate Lava Cake', 'price': 7.0, 'description': 'Decadent chocolate cake with a molten center, served with vanilla ice cream.'}, {'id': 10, 'name': 'Apple Pie', 'price': 5.0, 'description': 'Traditional apple pie made with fresh apples and a flaky crust, served warm.'}]
+4. Comments
+   []
+
+Please note that comments are merely expressions of personal opinions and are for reference only. Comments can also be time-sensitive. So, a negative comment of a restaurant does not mean it's not suitable for you. If you are drawn to its menu and advertisements, don't hesitate to give it a try.
+
+[System->all]: As a member of the group, you need referencing your according to your income, taste, health, dietary restriction, personality and previous dining experiences then discussing with others, finally decide which restaurant to go to and which dishes to order.
+
+Two rules:
+1. the discussion must be maintained for more than two round. In first round, each member should express his or her views and needs. If someone wants to propose a final solution in the second round of a discussion, they should first verbally articulate their proposal and seek preliminary agreement from other members. If the proposal gains majority support during this round, it can then be formally submitted in the third round as the final decision.
+2. If you are in discussion, no format restrictions, But If you want to final summarize and order, ensure your response follows this format:
+{
+    "restaurant": <The chosen restaurant. If you don't make choices, return 'None'>,
+    "dishes" : [
+        The names of the dishes ordered from the chosen restaurant, order enough dishes for group.
+    ],
+    "summary": <A summary of the group discussion, including why this restaurant was chosen, and how each member's opinion influenced the final decision>
+}
+(If you want to summarize, only output this json data, without any other content!!!)
+
+[Maggie->all]: I think both restaurants have interesting menus, but I feel more drawn to "American Dream USA." Their menu includes a "Chocolate Lava Cake," which is definitely appealing to my sweet tooth, and they also have a variety of options like the "Loaded Nachos" and "Gourmet Burger" that sound delicious. Plus, I appreciate the healthier choices like the "Caesar Salad."
+
+On the other hand, "American Delight" has some classic comfort foods, but their desserts are limited to the "American Apple Pie" and a milkshake. While I do love milkshakes, I prefer a dessert that leans more towards chocolate.
+
+I think we should weigh these options carefully and consider what everyone else thinks. What are your thoughts?
+
+[Valerie->all]: I appreciate your input, Maggie! I also find "American Dream USA" appealing, especially with their variety of options that cater to both comfort food and healthier choices. The "Gourmet Burger" sounds intriguing, and I agree that the "Chocolate Lava Cake" is a great dessert option. 
+
+However, I want to bring attention to "American Delight." Their "Classic American Burger" and "BBQ Ribs" could offer that hearty comfort food experience, and I do enjoy a good burger. But I feel like "American Dream USA" has a broader range of flavors and healthier options, which aligns more with my taste for organic and health-conscious foods. 
+
+I’m leaning towards "American Dream USA" as well, but I'm curious to hear what others think about the two options. Do you have any preferences, or do you think we should explore "American Delight" further?
+
+[Maggie->all]: I'm glad to hear we both have a preference for "American Dream USA"! I really think their menu offers a delightful mix of indulgence and healthier options that cater to both of our tastes. The "Chocolate Lava Cake" is definitely a standout for me, and I appreciate that they also have items like the "Caesar Salad" which can balance out the richer dishes.
+
+While "American Delight" has some classic offerings, I feel that their menu is more limited when it comes to dessert and healthier choices. The "American Apple Pie" is nice, but it doesn’t match the excitement of a molten chocolate cake! 
+
+Given our preferences and the variety at "American Dream USA," I would suggest we finalize our choice there. What do you think about proceeding with that decision? Maybe we can also consider ordering a mix of savory and sweet dishes to satisfy both our cravings!
+

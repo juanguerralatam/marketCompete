@@ -48,7 +48,7 @@ Only output all answer (1 - 6)
 def get_gpt_response(prompt):
     messages = [{'role': 'user', 'content': prompt}]
     completion = openai.ChatCompletion.create(
-                model="gpt-4-1106-preview",
+                model="gpt-4o-mini",
                 messages=messages,
                 temperature=0.7,
                 max_tokens=2000,

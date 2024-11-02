@@ -88,7 +88,7 @@ class Player(Agent):
             global_prompt=self.global_prompt,
         )
 
-    def act(self, observation_text: List[Message], observation_vision: List[Image]=[]) -> str:
+    def act(self, observation_text: List[Message]) -> str:
         """
         Take an action based on the observation (Generate a response), which can later be parsed to actual actions that affect the game dyanmics.
 
@@ -101,7 +101,7 @@ class Player(Agent):
         try:
             response = self.backend.query(agent_name=self.name, agent_type=self.agent_type, role_desc=self.role_desc,
                                           relationship=self.relationship, history_messages=observation_text, 
-                                          global_prompt=self.global_prompt, images=observation_vision, request_msg=None)
+                                          global_prompt=self.global_prompt, request_msg=None)
         except RetryError as e:
             err_msg = f"Agent {self.name} failed to generate a response. Error: {e.last_attempt.exception()}. Sending signal to end the conversation."
             logging.warning(err_msg)
@@ -109,10 +109,10 @@ class Player(Agent):
 
         return response
 
-    def __call__(self, observation_text: List[Message], observation_vision: List[Image]) -> str:
-        return self.act(observation_text, observation_vision)
+    def __call__(self, observation_text: List[Message], ) -> str:
+        return self.act(observation_text)
 
-    async def async_act(self, observation: List[Message]) -> str:
+    async def async_act(self) -> str:
         """
         Async version of act(). This is used when you want to generate a response asynchronously.
 
@@ -124,7 +124,7 @@ class Player(Agent):
         """
         try:
             response = self.backend.async_query(agent_name=self.name, role_desc=self.role_desc,
-                                                history_messages=observation, global_prompt=self.global_prompt,
+                                                 global_prompt=self.global_prompt,
                                                 request_msg=None)
         except RetryError as e:
             err_msg = f"Agent {self.name} failed to generate a response. Error: {e.last_attempt.exception()}. Sending signal to end the conversation."

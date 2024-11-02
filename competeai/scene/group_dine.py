@@ -5,7 +5,7 @@ from typing import List
 from .base import Scene
 from ..agent import Player
 from ..message import MessagePool
-from ..globals import NAME2PORT, PORT2NAME, image_pool
+from ..globals import NAME2PORT, PORT2NAME
 from ..utils import log_table, get_data_from_database, send_data_to_database
 
 import numpy as np
@@ -178,15 +178,9 @@ class GroupDine(Scene):
         # text observation
         observation_text = self.message_pool.get_visible_messages(agent_name=curr_player.name, turn=self._curr_turn)
         
-        # vision observation, get two restaurant images for showing
-        # if curr_process['name'] == 'group_order':
-        #     observation_vision = image_pool.get_visible_images(restaurant_name="All")
-        # else:
-        observation_vision = []
-        
         for i in range(self.invalid_step_retry):
             try:
-                output = curr_player(observation_text, observation_vision)
+                output = curr_player(observation_text)
                 parsed_ouput = self.parse_output(output, curr_player.name, curr_process['name'], curr_process['to_db'])
                 break
             except Exception as e:

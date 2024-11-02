@@ -1,0 +1,10 @@
+name,day1,day2,day3
+id,1,5,3
+income,0,74,42
+expense,233,333,200
+num_of_customer,0,9,5
+num_of_chef,2,2,1
+chef_salary,4000,7000,3000
+dish_score,0.5773148148148147,0.9173971861471862,0.5205555555555555
+customer_score,0.0,6.714285714285714,6.0
+dishes,{},"{""BBQ Chicken Sandwich"": 9, ""Loaded Fries"": 7, ""Crispy Onion Rings"": 1, ""Coleslaw"": 1, ""Classic BBQ Burger"": 1}","{""Classic American Burger"": 4, ""Loaded Fries"": 3, ""Milkshake"": 2, ""Coleslaw"": 1, ""Iced Tea"": 2, ""BBQ Ribs"": 1, ""Gourmet American Burger"": 1}"

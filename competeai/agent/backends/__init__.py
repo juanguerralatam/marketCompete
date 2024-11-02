@@ -9,17 +9,13 @@ from ...config import BackendConfig
 
 from .base import IntelligenceBackend
 from .openai import OpenAIChat
-from .cohere import CohereAIChat
-from .human import Human
-from .hf_transformers import TransformersConversational
 from .anthropic import Claude
+from .ollama import OllamaChat
 
 ALL_BACKENDS = [
-    Human,
     OpenAIChat,
-    CohereAIChat,
-    TransformersConversational,
     Claude,
+    OllamaChat,
 ]
 
 BACKEND_REGISTRY = {backend.type_name: backend for backend in ALL_BACKENDS}
