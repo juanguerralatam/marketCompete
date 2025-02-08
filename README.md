@@ -1,10 +1,5 @@
 ## Introduction
 
-The experimental framework for "[CompeteAI: Understanding the Competition Dynamics in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512)". The work is published at ICML 2024 as an Oral presentation.
-
-![image](https://github.com/user-attachments/assets/9b027583-62cf-4956-b5a9-ef4573631d54)
-
-
 The ultimate aim of this framework is unifying sociological simulation experiments into a single framework from both theoretical and code design perspectives. Currently, competeai is the only instance under this framework. The construction of this framework is based on the following fundamental ideas:
 
 - Most sociological experiments can be decomposed into several scenes, where various agents interact in a certain order within each scene.
@@ -13,14 +8,27 @@ The ultimate aim of this framework is unifying sociological simulation experimen
   - For instance, in restaurant management, if only a few management tasks (e.g., chef management, menu management) are mentioned at the beginning, agents cannot successfully complete these tasks without prompts guiding their actions before each management task.
 
 
-## Installation
+## Installation Requieremnts
+
+basic 
+```
+sudo apt update && sudo apt upgrade
+```
+enviroment
+```install conda
+cd /opt
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm ~/miniconda3/miniconda.sh
+```
 
 **Note: the framework has only been tested on linux.**
 
 First, clone the repo:
 
 ```bash
-git clone https://github.com/microsoft/competeai
+git clone https://github.com/juanguerralatam/marketCompete
 ```
 
 Then
@@ -31,7 +39,7 @@ cd competeai
 
 To install the required packages, you can create a conda environment:
 
-```powershell
+```enviroment
 conda create --name competeai python=3.10
 ```
 
