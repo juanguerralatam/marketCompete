@@ -1,11 +1,13 @@
 ## Introduction
 
-The ultimate aim of this framework is unifying sociological simulation experiments into a single framework from both theoretical and code design perspectives. Currently, competeai is the only instance under this framework. The construction of this framework is based on the following fundamental ideas:
+The ultimate aim of this repository is to unify the study of competitive dynamics in the global marketplace into a cohesive framework, integrating both theoretical insights and practical code design. Currently, the focus is on the competitive dynamics of Born Global companies, particularly their interactions with established Multinational Corporations (MNCs). The construction of this framework is based on the following fundamental ideas:
 
-- Most sociological experiments can be decomposed into several scenes, where various agents interact in a certain order within each scene.
-  - For example, in the competeai experiment, it can be broken down into scenes such as restaurant management, customer group discussions, customer dining, and feedback. In the first scene of restaurant management, the agent playing the role of the boss needs to modify each restaurant module in sequence. In the second scene of customer group discussions, the customers need to speak in a certain order, and so on.
-- Currently, many multi-agent frameworks do not allow agents to complete tasks within a scene based solely on the initial prompt settings. Therefore, it is necessary to add prompts at several nodes in the simulation to guide the agents in completing this part of the simulation.
-  - For instance, in restaurant management, if only a few management tasks (e.g., chef management, menu management) are mentioned at the beginning, agents cannot successfully complete these tasks without prompts guiding their actions before each management task.
+    The global marketplace can be dissected into various scenarios, where Born Global companies and MNCs interact in specific contexts.
+        For example, in the scenario of market entry, Born Global companies must navigate regulatory hurdles, establish brand presence, and secure supply chains. In the scenario of product development, these firms must balance innovation with cost efficiency, while in the scenario of cost leadership, they must optimize operations and pricing strategies. Each of these scenarios requires a sequence of strategic decisions and interactions.
+    Many existing models fail to capture the full complexity of these interactions based solely on initial conditions. Therefore, it is necessary to introduce dynamic factors at various stages of the simulation to guide the strategic decisions of Born Global companies and MNCs.
+        For instance, in the market entry scenario, if only basic regulatory requirements are outlined at the outset, companies cannot successfully navigate the complexities without additional guidance on local market nuances, cultural considerations, and competitive strategies. Similarly, in product development, companies need prompts to guide their decisions on technology adoption, design iterations, and customer feedback integration.
+
+This repository aims to provide a comprehensive simulation framework powered by Large Language Models (LLMs) to explore these dynamics. By simulating interactions across diverse economic contexts, we identify critical success factors that enable Born Global companies to thrive despite resource constraints and the dominance of larger players. Our findings offer valuable insights into how these firms can leverage their agility, technological adoption, and innovative cultures to achieve competitive advantages and rapid internationalization. This research contributes to both academic theory and managerial practice, providing a nuanced understanding of how Born Global firms can strategically position themselves for long-term growth in an increasingly interconnected global economy.
 
 
 ## Installation Requieremnts
@@ -27,21 +29,21 @@ rm ~/miniconda3/miniconda.sh
 First, clone the repo:
 
 ```bash
-git clone https://github.com/juanguerralatam/marketCompete
+git clone https://github.com/juanguerralatam/marketcompete
 ```
 
 Then
 
 ```bash
-cd competeai
+cd marketcompete
 ```
 
 To install the required packages, you can create a conda environment:
 
 ```enviroment
 source ~/miniconda3/bin/activate
-conda create --name competeai python=3.10
-conda activate competeai
+conda create --name marketcompete python=3.10
+conda activate marketcompete
 pip install -r requirements.txt
 
 ```
