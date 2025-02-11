@@ -39,6 +39,7 @@ cd competeai
 To install the required packages, you can create a conda environment:
 
 ```enviroment
+source ~/miniconda3/bin/activate
 conda create --name competeai python=3.10
 ```
 
