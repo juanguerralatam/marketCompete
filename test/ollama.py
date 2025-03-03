@@ -9,7 +9,7 @@ OLLAMA_API_URL = "http://localhost:11434/api/chat"
 
 # JSON payload
 payload = {
-  "model": "llama3.2",
+  "model": "deepseek-r1",
   "messages": [
     {
       "role": "user",

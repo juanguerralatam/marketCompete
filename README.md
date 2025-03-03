@@ -48,26 +48,29 @@ pip install -r requirements.txt
 
 ```
 
-## How to run
+## Test requiments
+1. Open Source models using Ollama refert to ollama instalation.
+    Download Deepseek-R1, LLama 3.2 and Qwen
+    In folder test run ollama.py 
 
-First, add a environment variable into your environment config file:
-
+2. Propierary models can be run using the current API
+    First, add a environment variable into your environment config file:
 ```bash
-export OPENAI_KEY='sk-xxx'
+export OPENAI_API_KEY="sk-xxx"
 ```
+    In folder test run openAI.py
 
-Next, launch Django database server
-
+3. launch Django database server for normal SQL query
 ```bash
 ./database.sh restart
 ```
+4. (Optional) You can also use mode AI datavector base like MondoBD Atlas
 
-Then, open a new terminal, run the following command: 
+## Run the framwork
 
 ```bash
 python run.py <exp_name>
 ```
-
 The result will save into `logs/<exp_name>`
 
 ## The structure of framework
@@ -124,4 +127,30 @@ The result will save into `logs/<exp_name>`
     └── ...
 ```
 
+## Citation
 
+If you find ChatArena useful for your research, please cite our repository (our arxiv paper is coming soon):
+
+```bibtex
+@software{ChatArena,
+  author = {Yuxiang Wu, Zhengyao Jiang, Akbir Khan, Yao Fu, Laura Ruis, Edward Grefenstette, and Tim Rocktäschel},
+  title = {ChatArena: Multi-Agent Language Game Environments for Large Language Models},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  version = {0.1},
+  howpublished = {\url{https://github.com/chatarena/chatarena}},
+}
+```
+
+## Contact
+
+If you have any questions or suggestions, feel free to open an issue or submit a pull request.
+
+Happy chatting!
+
+## Sponsors
+
+We would like to thank our sponsors for supporting this project:
+
+- [HITsz](https://www.hitsz.edu.cn/)
